@@ -1,0 +1,66 @@
+[{
+
+        "question": "_ of an algorithm is the amount of time required for it to execute.",
+        "answers": [{
+                "text": "Time complexity",
+                "correct": true
+            },
+            {
+                "text": " Space complexity",
+                "correct": false
+            },
+            {
+                "text": "Compiling time",
+                "correct": false
+            },
+            {
+                "text": " Best case",
+                "correct": false
+            }
+        ]
+
+    },
+    {
+
+        "question": "_ is the maximum amount of time an algorithm takes to execute a specific set of inputs.",
+        "answers": [{
+                "text": "Running time",
+                "correct": false
+            },
+            {
+                "text": "Average case time complexity",
+                "correct": false
+            },
+            {
+                "text": "Worst case time complexity",
+                "correct": true
+            },
+            {
+                "text": "Best case time complexity",
+                "correct": false
+            }
+        ]
+
+    }, {
+
+        "question": " Each slot of the bucket array in separate chaining stores _.",
+        "answers": [{
+                "text": "Records ",
+                "correct": false
+            },
+            {
+                "text ": "A pointer to a linked list ",
+                "correct ": true
+            },
+            {
+                "text ": "Hash key values ",
+                "correct ": false
+            },
+            {
+                "text ": "Both b & c ",
+                "correct ": false
+            }
+        ]
+
+    }
+]

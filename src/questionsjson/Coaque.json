@@ -1,0 +1,48 @@
+[
+    {
+        
+        "question":"Which of the following is a type of architecture used in the computers nowadays?",
+        "answers":[
+            {
+                "text":"Microarchitecture",
+                "correct":false
+            },
+            {
+                "text":"Harvard Architecture",
+                "correct":false
+            },
+            {
+                "text":"Von-Neumann Architecture",
+                "correct":true
+            },
+            {
+                "text":" System Design",
+                "correct":false
+            }
+        ]
+        
+    },
+    {
+        
+        "question":"Which of the architecture is power efficient?",
+        "answers":[
+            {
+                "text":" RISC",
+                "correct":true
+            },
+            {
+                "text":"ISA",
+                "correct":false
+            },
+            {
+                "text":" IANA",
+                "correct":false
+            },
+            {
+                "text":"  CISC",
+                "correct":false
+            }
+        ]
+        
+    }
+]

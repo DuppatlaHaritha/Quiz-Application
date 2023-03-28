@@ -1,0 +1,48 @@
+[
+    {
+        
+        "question":"The deflection system of the CRT consistsof_____deflection plates.",
+        "answers":[
+            {
+                "text":"vertical",
+                "correct":false
+            },
+            {
+                "text":"horizontal",
+                "correct":false
+            },
+            {
+                "text":"a and b",
+                "correct":true
+            },
+            {
+                "text":"None of the above",
+                "correct":false
+            }
+        ]
+        
+    },
+    {
+        
+        "question":"On a black and white system with one bit per pixel , the frame buffer is called a____.",
+        "answers":[
+            {
+                "text":"bitmap",
+                "correct":true
+            },
+            {
+                "text":" pixmap",
+                "correct":false
+            },
+            {
+                "text":"bitpixmap",
+                "correct":false
+            },
+            {
+                "text":" pixbitmap",
+                "correct":false
+            }
+        ]
+        
+    }
+]

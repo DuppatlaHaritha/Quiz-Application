@@ -1,0 +1,48 @@
+[
+    {
+        
+        "question":"Heap is an example of?",
+        "answers":[
+            {
+                "text":"complete binary tree",
+                "correct":true
+            },
+            {
+                "text":"spanning tree",
+                "correct":false
+            },
+            {
+                "text":"sparse tree",
+                "correct":false
+            },
+            {
+                "text":"binary search tree",
+                "correct":false
+            }
+        ]
+        
+    },
+    {
+    
+        "question":"Which of the following usees FIFO method",
+        "answers":[
+            {
+                "text":"Queue",
+                "correct":true
+            },
+            {
+                "text":"Stack",
+                "correct":false
+            },
+            {
+                "text":"Hash Table",
+                "correct":false
+            },
+            {
+                "text":" Binary Search Tree",
+                "correct":false
+            }
+        ]
+        
+    }
+]

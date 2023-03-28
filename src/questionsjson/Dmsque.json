@@ -1,0 +1,48 @@
+[
+    {
+        
+        "question":"Power set of empty or Null set has exactly ___ subset.",
+        "answers":[
+            {
+                "text":"One",
+                "correct":true
+            },
+            {
+                "text":"Two",
+                "correct":false
+            },
+            {
+                "text":"Zero",
+                "correct":false
+            },
+            {
+                "text":"Three",
+                "correct":false
+            }
+        ]
+        
+    },
+    {
+        
+        "question":"If n(A) = 20 and n(B) = 30 and n(A U B) = 40 then n(A ∩ B) is?",
+        "answers":[
+            {
+                "text":"20",
+                "correct":false
+            },
+            {
+                "text":"30",
+                "correct":false
+            },
+            {
+                "text":"40",
+                "correct":false
+            },
+            {
+                "text":"10",
+                "correct":true
+            }
+        ]
+        
+    }
+]

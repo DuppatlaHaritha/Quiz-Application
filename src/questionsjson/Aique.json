@@ -1,0 +1,71 @@
+[
+    {
+        
+        "question":"What is the main aim of Artificial Intelligence?",
+        "answers":[
+            {
+                "text":"To solve real-world issues",
+                "correct":false
+            },
+            {
+                "text":" To explain different sorts of intelligence",
+                "correct":true
+            },
+            {
+                "text":"To solve artificial problems",
+                "correct":false
+            },
+            {
+                "text":"To obtain information about scientific causes",
+                "correct":false
+            }
+        ]
+        
+    },
+    {
+        
+        "question":" __ is the informed search method.",
+        "answers":[
+            {
+                "text":"Memory Bound Heuristic Search",
+                "correct":true
+            },
+            {
+                "text":"A * Search",
+                "correct":false
+            },
+            {
+                "text":"Best First Search ",
+                "correct":false
+            },
+            {
+                "text":"All of the above",
+                "correct":false
+            }
+        ]
+        
+    },
+    {
+        
+        "question":"__ is a component of AI. ",
+        "answers":[
+            {
+                "text":" Training",
+                "correct":false
+            },
+            {
+                "text":"Designing",
+                "correct":false
+            },
+            {
+                "text":" Learning ",
+                "correct":true
+            },
+            {
+                "text":"Puzzling",
+                "correct":false
+            }
+        ]
+        
+    }
+]

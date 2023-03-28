@@ -1,0 +1,257 @@
+[
+    {
+        
+        "question":" When does page fault occur?",
+        "answers":[
+            {
+                "text":"The page is present in memory",
+                "correct":false
+            },
+            {
+                "text":"The deadlock occurs",
+                "correct":false
+            },
+            {
+                "text":"The page does not present in memory",
+                "correct":true
+            },
+            {
+                "text":"The buffering occurs",
+                "correct":false
+            }
+        ]
+        
+    },
+    {
+            
+        "question":"Which of the following is not a feature of the batch Operating system??",
+        "answers":[
+            {
+                "text":"Large turnaround time",
+                "correct":false
+            },
+            {
+                "text":"It is very easy to debug the program in this operating system",
+                "correct":false
+            },
+            {
+                "text":"Other pending jobs are affected due to a lack of protection schemes",
+                "correct":false
+            },
+            {
+                "text":"None of the above",
+                "correct":true
+            }
+        ]
+        
+    },
+    {
+        
+        "question":"Which of the following is not a network operating system?",
+        "answers":[
+            {
+                "text":"Mac OS X",
+                "correct":false
+            },
+            {
+                "text":"Novell Netware",
+                "correct":false
+            },
+            {
+                "text":"BSD",
+                "correct":false
+            },
+            {
+                "text":"Oracle",
+                "correct":true
+            }
+        ]
+        
+    },
+    {
+        
+        "question":"__ is the heart of an operating system?",
+        "answers":[
+            {
+                "text":"Software",
+                "correct":false
+            },
+            {
+                "text":"Programs",
+                "correct":false
+            },
+            {
+                "text":"CPU",
+                "correct":false
+            },
+            {
+                "text":"Kernel",
+                "correct":true
+            }
+        ]
+        
+    },
+    
+    {
+        
+        "question":"Which of the following is the main advantage of a microprocessor system?",
+        "answers":[
+            {
+                "text":"Increased throughput",
+                "correct":false
+            },
+            {
+                "text":"Economy of scale",
+                "correct":false
+            },
+            {
+                "text":"Increased reliability",
+                "correct":false
+            },
+            {
+                "text":"All of the above",
+                "correct":true
+            }
+        ]
+        
+    },
+    {
+        
+        "question":"What are schedulers?",
+        "answers":[
+            {
+                "text":"Schedulers are the special software that handles process scheduling in various ways",
+                "correct":true
+            },
+            {
+                "text":"Schedulers are the processes that manage queues",
+                "correct":false
+            },
+            {
+                "text":"Schedulers are the system that schedules the processes",
+                "correct":false
+            },
+            {
+                "text":"None of the above",
+                "correct":false
+            }
+        ]
+        
+    },
+    {
+        
+        "question":"At which state the process is waiting to be assigned to a processor?",
+        "answers":[
+            {
+                "text":"New",
+                "correct":false
+            },
+            {
+                "text":"Running",
+                "correct":false
+            },
+            {
+                "text":"Waiting",
+                "correct":false
+            },
+            {
+                "text":"Ready",           
+                "correct":true
+            }
+        ]
+        
+    },
+    {
+        
+        "question":"Which algorithm is best when there are equal qualities of processes in the queue?",
+        "answers":[
+            {
+                "text":"First Come First Serve",
+                "correct":false
+            },
+            {
+                "text":"Round Robin Scheduling",
+                "correct":true
+            },
+            {
+                "text":"Shortest Job First",
+                "correct":false
+            },
+            {
+                "text":"Priority CPU Scheduling",
+                "correct":false
+            }
+        ]
+        
+    },
+    {
+        
+        "question":"The address of the I/O device that wants to read or writes data. Is stored in the __.",
+        "answers":[
+            {
+                "text":"Chip units",
+                "correct":false
+            },
+            {
+                "text":"DMA Controller",
+                "correct":false
+            },
+            {
+                "text":"Data registers",
+                "correct":true
+            },
+            {
+                "text":"Device drivers",
+                "correct":false
+            }
+        ]
+        
+    },
+    {
+        
+        "question":"__ is the interface between the command language user and the OS.",
+        "answers":[
+            {
+                "text":"Kernel",
+                "correct":false
+            },
+            {
+                "text":"System Utilities",
+                "correct":false
+            },
+            {
+                "text":"Shell",
+                "correct":true
+            },
+            {
+                "text":"None",
+                "correct":false
+            }
+        ]
+        
+    },
+    {
+        
+        "question":".If a process fails, most operating system write the error information to a __",
+        "answers":[
+            {
+                "text":"New file",
+                "correct":false
+            },
+            {
+                "text":"Another running process",
+                "correct":false
+            },
+            {
+                "text":"Log file",
+                "correct":true
+            },
+            {
+                "text":"None of the mentioned",
+                "correct":false
+            }
+        ]
+        
+    }
+]
+    

@@ -1,0 +1,45 @@
+[{
+
+        "question": "C variable cannot start with which of the following option ?",
+        "answers": [{
+                "text": "An alphabet",
+                "correct": false
+            },
+            {
+                "text": "A number",
+                "correct": false
+            },
+            {
+                "text": "A special other than underscore",
+                "correct": false
+            },
+            {
+                "text": "Both (b) And (c)",
+                "correct": true
+            }
+        ]
+
+    },
+    {
+
+        "question": "statement printf(“%d”, 10 ? 0 ? 5 : 1 : 12); will print?",
+        "answers": [{
+                "text": "0",
+                "correct": false
+            },
+            {
+                "text": "12",
+                "correct": false
+            },
+            {
+                "text": "10",
+                "correct": false
+            },
+            {
+                "text": "1",
+                "correct": true
+            }
+        ]
+
+    }
+]

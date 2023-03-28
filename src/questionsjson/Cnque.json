@@ -1,0 +1,48 @@
+[
+    {
+        
+        "question":"Choose the port number of FTP. ",
+        "answers":[
+            {
+                "text":"23",
+                "correct":false
+            },
+            {
+                "text":"21",
+                "correct":true
+            },
+            {
+                "text":"110",
+                "correct":false
+            },
+            {
+                "text":"143",
+                "correct":false
+            }
+        ]
+        
+    },
+    {
+        
+        "question":"Identify among the following the network device used to connect two dis-similar types of networks.",
+        "answers":[
+            {
+                "text":"Switch",
+                "correct":false
+            },
+            {
+                "text":"Hub",
+                "correct":false
+            },
+            {
+                "text":"Bridge",
+                "correct":false
+            },
+            {
+                "text":"Gateway",
+                "correct":true
+            }
+        ]
+        
+    }
+]

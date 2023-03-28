@@ -1,0 +1,48 @@
+[
+    {
+        
+        "question":"What characterize unlabeled examples in machine learning____",
+        "answers":[
+            {
+                "text":"there is plenty of confusing knowledge there is prior knowledge",
+                "correct":true
+            },
+            {
+                "text":"there is prior knowledge",
+                "correct":false
+            },
+            {
+                "text":"there is no confusing knowledge",
+                "correct":false
+            },
+            {
+                "text":"there is no prior knowledge",
+                "correct":false
+            }
+        ]
+        
+    },
+    {
+        
+        "question":"Which of the following is the best machine learning method?",
+        "answers":[
+            {
+                "text":"accuracy",
+                "correct":false
+            },
+            {
+                "text":"scalable",
+                "correct":false
+            },
+            {
+                "text":"fast",
+                "correct":false
+            },
+            {
+                "text":"All of above",
+                "correct":true
+            }
+        ]
+        
+    }
+]
