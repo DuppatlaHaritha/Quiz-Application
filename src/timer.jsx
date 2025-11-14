@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
+
 export default function Timer({ 
     data,
     setStop, 
@@ -21,7 +22,7 @@ export default function Timer({
         
         
     }
-    if (questionNumber === data.length){
+    if (questionNumber === data.length+1){
       setStop(true)
       axios.post('http://localhost/php-react/register-login-php/scores.php',scores).then((result)=>{
                 console.log(result.data)

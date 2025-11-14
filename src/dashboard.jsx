@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import "./pyth.css";
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-//import Pyth from "./pyth"
-import Os from "./os";
+//import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import Quiz from "./Quiz";
 import ResponsiveAppBar from "./Appbar";
 //import { BrowserRouter as Router, Switch, 
 //    Route, Redirect, Navigate,} from "react-router-dom";
@@ -16,6 +15,7 @@ export default function DashBoard( add,setAdd){
     let sub;
     //var attempt=0;
     const handlesubos = () => {
+        
         setAttempt(attempt+1);
         setSubj("OS")
         setQui(false)
@@ -57,7 +57,7 @@ export default function DashBoard( add,setAdd){
         setQui(false)
         
     }
-    const handlesubacd = () => {
+    const handlesubcd = () => {
         setSubj("CD")
         setAttempt(attempt+1);
         setQui(false)
@@ -140,14 +140,16 @@ export default function DashBoard( add,setAdd){
                         </div>
                             
                     
-                        <div className="col-sm-12 col-xl-3 p-5 m-3 bg-secondary text-white subject dms" onClick={handlesubdms}>
+                        <div className="col-sm-12 col-xl-3 p-5 m-3 bg-secondary text-white subject dms" >
                             <Link to="" style={{ textDecoration: 'none' }}>
-                              <a className="text-white text-decoration-none">Discete Mathematical Structures</a>
+                              <a onClick={handlesubdms} className="text-white text-decoration-none">Discete Mathematical Structures</a>
                             </Link>
                         </div>
-                        <div className="col-sm-12 col-xl-3 p-5 m-3 bg-success text-white subject cd" onClick={handlesubacd}>
+
+
+                        <div className="col-sm-12 col-xl-3 p-5 m-3 bg-success text-white subject cd" >
                             <Link to="" style={{ textDecoration: 'none' }}>  
-                              <a href="#" className="text-white text-decoration-none">Compiler Design</a>
+                              <a href="#" onClick={handlesubcd} className="text-white text-decoration-none">Compiler Design</a>
                             </Link>
                         </div>
                         <div className="col-sm-12 col-xl-3 p-5 m-3 bg-info text-white subject ds" onClick={handlesubds} >
@@ -196,12 +198,12 @@ export default function DashBoard( add,setAdd){
                             </Link>
                         </div>
                         <div className="col-sm-12 col-xl-3 p-5 m-3 bg-dark text-white subject flat" onClick={handlesubflat}>
-                            <Link to="/DS" style={{ textDecoration: 'none' }}>
+                            <Link to="" style={{ textDecoration: 'none' }}>
                                <a href="#php" className="text-white text-decoration-none">Formal Languages & Automata Theory</a>
                             </Link>
                         </div>
                         <div className="col-sm-12 col-xl-3 p-5 m-3 bg-dark text-white subject ml" onClick={handlesubml}>
-                            <Link to="/ML" style={{ textDecoration: 'none' }}>
+                            <Link to="" style={{ textDecoration: 'none' }}>
                                <a href="#php" className="text-white text-decoration-none">Machine Learning</a>
                             </Link>
                         </div>
@@ -228,7 +230,7 @@ export default function DashBoard( add,setAdd){
                     </div>
             </div>  </div>):
             (
-                <Os
+                <Quiz
                   subj={subj} 
                   attempt={attempt}
                 />

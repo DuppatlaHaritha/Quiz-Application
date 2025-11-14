@@ -54,7 +54,7 @@ export default function SignUp(props) {
         email: data.get('email'),
         password: data.get('password'),
       };
-      const senddata2={
+     const senddata2={
         firstName:senddata1["firstName"],
         lastName:senddata1["lastName"],
         email:senddata1["email"],
@@ -146,12 +146,12 @@ export default function SignUp(props) {
                   value={info.password}
                 />
               </Grid>
-              <Grid item xs={12}>
+              {/* <Grid item xs={12}>
                 <FormControlLabel
                   control={<Checkbox value="allowExtraEmails" color="primary" />}
                   label="I want to receive inspiration, marketing promotions and updates via email."
                 />
-              </Grid>
+              </Grid> */}
             </Grid>
             <Button
               type="submit"

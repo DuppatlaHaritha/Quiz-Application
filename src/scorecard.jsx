@@ -13,11 +13,11 @@ const Scorecard = () => {
         localStorage.setItem("scorecard",JSON.stringify(results.data))
         //console.log(results.data);
         //console.log(user);
-        //console.log(user[0].firstname);
+        console.log(user);
     };
     //setUser(JSON.parse(localStorage.getItem("scorecard")));
-    const users=JSON.parse(localStorage.getItem("scorecard"));
-    //console.log(users);
+     const users=JSON.parse(localStorage.getItem("scorecard"));
+     console.log(users);
     useEffect(() => {
       loaduser();
     
@@ -41,14 +41,14 @@ const Scorecard = () => {
     </tr>
   </thead>
   <tbody>
-    {users.map((res)=>
-    <tr>
-      {/* <th scope="row">1</th> */}
+     {users.map((res)=> 
+     <tr>
+      <th scope="row">1</th>
       <td>{res.firstname}</td>
       <td>{res.attempts}</td>
       <td>{res.score}</td>
-    </tr>
-     )}  
+    </tr> 
+      )}   
     {/* <tr>
       <th scope="row">2</th>
       <td>Jacob</td>

@@ -12,12 +12,13 @@ import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+//import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import { Link,navigate, useNavigate } from 'react-router-dom';
 import LogoutIcon from '@mui/icons-material/Logout';
 import CloseIcon from '@mui/icons-material/Close';
 import HomeIcon from '@mui/icons-material/Home';
 import { fontSize } from '@mui/system';
+import { ConstructionOutlined } from '@mui/icons-material';
 
 const pages = ['HOME'];
 const settings = ['Profile', 'Dashboard', 'Logout'];
@@ -27,7 +28,7 @@ function ResponsiveAppBar() {
   
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
-  const [anchorElSubUser, setAnchorElSubUser] = React.useState(null);
+  const [anchorElSub, setAnchorElSub] = React.useState();
   
 
   const handleOpenNavMenu = (event) => {
@@ -35,9 +36,12 @@ function ResponsiveAppBar() {
   };
   const handleOpenUserMenu = (event) => {
     setAnchorElUser(event.currentTarget);
+    handleCloseSubUserMenu();
   };
   const handleOpenSubUserMenu = (event) => {
-    setAnchorElSubUser(event.currentTarget);
+    setAnchorElSub(event.currentTarget);
+    //setAnchorElSub(null);
+    console.log(anchorElSub)
   };
 
   const handleCloseNavMenu = (event) => {
@@ -47,10 +51,15 @@ function ResponsiveAppBar() {
 
   const handleCloseUserMenu = () => {
     setAnchorElUser(null);
+    //setAnchorElSub(null);
+    handleCloseSubUserMenu();
   };
   const handleCloseSubUserMenu = () => {
-    setAnchorElSubUser(null);
-    setAnchorElUser(null);
+    setAnchorElSub(null);
+    // setAnchorElUser(null);
+    // console.log(anchorElUser);
+    // console.log(anchorElSub);
+    
   };
   const local = () => {
     localStorage.setItem("datas",JSON.stringify(""))
@@ -148,6 +157,7 @@ function ResponsiveAppBar() {
                 horizontal: 'right',
               }}
               
+              
               open={Boolean(anchorElUser)}
               onClose={handleCloseUserMenu}
             >
@@ -156,8 +166,8 @@ function ResponsiveAppBar() {
                   <Typography textAlign="center">Profile</Typography>
                   <Menu
                   sx={{ mt: '46px',ml:'0px' }}
-                  id="menu-appbar"
-                  anchorEl={anchorElSubUser}
+                  // id="menu-appbar"
+                  anchorEl={anchorElSub}
                   anchorOrigin={{
                     vertical: 'top',
                     horizontal: 'right',
@@ -167,45 +177,68 @@ function ResponsiveAppBar() {
                     vertical: 'top',
                     horizontal: 'right',
                   }}
-                  open={Boolean(anchorElSubUser)}
-                  onClose={handleCloseUserMenu}
+                  open={Boolean(anchorElSub)}
+                  onClose={handleCloseSubUserMenu}
                   >
                     <MenuItem href='#login' key="Profile"  >
-                      {prf[0]}
+                    <Typography textAlign="center">{prf[0]}</Typography>
+                      
                       
                     </MenuItem>
-                    <MenuItem href='#login' key="close" onClick={handleCloseUserMenu} onClose={handleCloseUserMenu}
-                     component="a"
-                     href="/home"
-                    >close  
+                    <MenuItem href='#login' key="close" onClick={handleCloseUserMenu} 
+                     
+                    >
+                      <Typography 
+                      textAlign="center"
+                      style={{color:'black',textDecoration: 'none'}}
+                      component="a"
+                      href="/home"
+
+                      >
+                        close
+                      </Typography>
+                       
                     <CloseIcon />
                     </MenuItem>
                   </Menu>
                   
                 </MenuItem>
                 <MenuItem href='#login' key="log" 
-                  component="a"
-                  href="/subject"
+                  
                 >
                   
-                  <Typography textAlign="center">
+                  <Typography textAlign="center"
+                  style={{color:'black',textDecoration: 'none'}}
+                  component="a"
+                  href="/subject"
+                  >
                     Add Question
                   </Typography>
                   
                 </MenuItem>
                 <MenuItem href='#login' key="log" onClick={handleCloseUserMenu}
-                 component="a"
-                 href="/scorecard"
+                 
                 >
-                  <Typography textAlign="center" >results</Typography>
+                  <Typography textAlign="center"
+                  style={{color:'black',textDecoration: 'none'}} 
+                  component="a"
+                  href="/scorecard"
+                  >
+                    results
+                  </Typography>
                   
                   
                 </MenuItem>
                 <MenuItem href='#login' key="log" onClick={handleCloseUserMenu}
-                 component="a"
-                 href="/login"
+                 
                 >
-                  <Typography textAlign="center" onClick={local}>Logout  </Typography>
+                  <Typography textAlign="center" onClick={local}
+                  style={{color:'black',textDecoration: 'none'}}
+                  component="a"
+                  href="/login"
+                  >
+                    Logout  
+                  </Typography>
                   <LogoutIcon />
                   
                 </MenuItem>

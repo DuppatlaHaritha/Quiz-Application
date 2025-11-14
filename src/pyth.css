@@ -3,11 +3,11 @@
 }
 
 .pyth {
-    background: url("C:\Users\Duppatla Haritha\Pictures\quiz.jpg");
+    background-image: url("../images/qizbg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;
-    height: 100vh;
+    height: 200vh;
     display: flex;
     justify-content: center;
     /*flex-direction: column;*/
@@ -162,11 +162,11 @@ li {
 }
 
 .python {
-    background-image: url("https://media.istockphoto.com/id/1364859722/photo/artificial-intelligence-concept.jpg?b=1&s=170667a&w=0&k=20&c=eHRkMLmlR79tWkAuR0_eJCerG4xNP7iPMgjqE3mzbZU=.jpg");
+    background-image: url("https://media.istockphoto.com/id/1364859722/photo/artificial-intelligence-concept.jpg?b=1&s=170667a&w=0&k=20&c=eHRkMLmlR79tWkAuR0_eJCerG4xNP7iPMgjqE3mzbZU=");
 }
 
 .dms {
-    background-image: url("C:\Users\Duppatla Haritha\Pictures\dmspic.jpg");
+    background-image: url('../images/dms12.jpeg');
 }
 
 .cn {
@@ -186,56 +186,52 @@ li {
 }
 
 .ds {
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKIRnTpy2kPmPBHo-F8z9lLHSqbDpu1Tc9xtTiRF85&s.jpg");
+    background-image: url("../images/dsa12.jpeg");
 }
 
 .coa {
-    background-image: url("C:\Users\Duppatla Haritha\Downloads\coa.jpg");
+    background-image: url("../images/coa1.jpg");
 }
 
 .os {
-    background-image: url("C:\Users\Duppatla Haritha\Downloads\os2.jpg");
+    background-image: url("../images/os2.jpg");
 }
 
 .oop {
-    background-image: url("C:\Users\Duppatla Haritha\Downloads\oop12.jpg");
+    background-image: url("../images/oop2.jpg");
 }
 
 .dbms {
-    background-image: url("C:\Users\Duppatla Haritha\Downloads\dbms.jpg");
+    background-image: url("../images/dbms.jpg");
 }
 
 .cg {
-    background-image: url("C:\Users\Duppatla Haritha\Downloads\quizinh.jpg");
+    background-image: url("../images/cg1.jpg");
 }
 
 .daa {
-    background-image: url("https://www.tutorialslogic.com/images/tutorials/daa/ti-daa.jpg");
+    background-image: url("../images/daa.jpg");
 }
 
 .wt {
-    background-image: url("https://static.businessworld.in/article/article_extra_large_image/1489214473_VJzBfR_Web-tech.jpg");
+    background-image: url("../images/wt3.jpg");
 }
 
 .flat {
-    background-image: url("C:\Users\Duppatla Haritha\Pictures\flat.jpg");
+    background-image: url("../images/flat2.jpg");
     border-radius: 10px solid black;
 }
 
 .ml {
-    background-image: url("C:\Users\Duppatla Haritha\Downloads\ml.jpg");
+    background-image: url("../images/ml.jpg");
 }
 
 .ai {
-    background-image: url("C:\Users\Duppatla Haritha\Downloads\ai.jpg");
-}
-
-.pps {
-    background-image: url("C:\Users\Duppatla Haritha\Pictures\c image.jpg");
+    background-image: url("../images/ai1.jpg");
 }
 
 .cns {
-    background-image: url("C:\Users\Duppatla Haritha\Downloads\cns.jpg");
+    background-image: url("../images/cns.jpg");
 }
 
 .endText {
@@ -245,16 +241,14 @@ li {
     left: 0;
     right: 0;
     margin: auto;
-    color: rgb(256, 256, 256);
-    font-size: 200%;
-    font-weight: bolder;
+    color: coral;
 }
 
 .result {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding-top: 80%;
+    padding-top: 40%;
     padding-bottom: 50%;
 }
 
@@ -277,7 +271,7 @@ li {
 }
 
 .homeb {
-    background-color: blue;
+    background-color: blueviolet;
     border: 5px solid black;
     border-radius: 10%;
     width: 50%;
@@ -303,11 +297,12 @@ Link {
 .cont {
     align-items: center;
     justify-content: center;
-    background-color: rgb(256, 256, 256);
+    background-color: bisque;
+    opacity: 0.6;
 }
 
 .quizin {
-    background: url("C:\Users\Duppatla Haritha\Pictures\quiz.jpg");
+    background-image: url("../images/quizinh.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;
@@ -346,9 +341,56 @@ Link {
     color: #666666;
 }
 
+.add {
+    padding-left: 37%;
+    padding-top: 5%;
+    padding-right: 30%;
+}
+
 .sub {
     vertical-align: middle;
     padding: 20% 20% 20% 20%;
+}
+
+.questions {
+    padding-left: 10%;
+}
+
+.q1 {
+    padding: 7px;
+    width: 100%;
+}
+
+.sub {
+    background-repeat: no-repeat;
+    scroll-behavior: unset;
+}
+
+input {
+    border-radius: 5%;
+}
+
+.subadd {
+    margin-right: 20%;
+    padding-right: 10%;
+}
+
+label {
+    color: blue;
+}
+
+#select-box {
+    height: 40px;
+    overflow-y: auto;
+    width: 250px;
+}
+
+option {
+    overflow-y: scroll;
+}
+
+table {
+    margin-top: 70px;
 }
 
 
@@ -408,26 +450,36 @@ Link {
 }
 
 @media (min-width: 320px) {
+    .subjects {
+        text-align: center;
+        padding-top: 80px;
+    }
+    .quit {
+        bottom: 20%;
+    }
     .top {
-        height: 45%;
+        height: 40%;
         color: red;
         justify-content: left;
     }
     .timer {
-        bottom: 50px;
+        bottom: 20%;
         border: 5px solid white;
         color: white;
         font-size: 30px;
     }
     .bottom {
-        height: 45%;
+        height: 60%;
         color: aqua;
     }
     .pyth {
-        background: url("C:\Users\Duppatla Haritha\Downloads\quizinh.jpg");
+        background-image: url("../images/qizbg.jpg");
+        background-attachment: fixed;
         background-repeat: no-repeat;
         background-size: cover;
         height: 100vh;
+        background-attachment: fixed;
+        background-clip: border-box;
     }
     .question {
         width: 100%;
@@ -435,7 +487,7 @@ Link {
     .answers {
         justify-content: center;
         display: block;
-        padding-left: 65px;
+        padding-left: 50px;
         padding-top: 10px;
     }
     .answer {
@@ -461,6 +513,12 @@ Link {
 }
 
 @media (min-width: 1024px) {
+    .subjects {
+        text-align: center;
+        justify-content: space-around;
+        padding-top: 80px;
+        padding-left: 0px;
+    }
     .top {
         height: 50%;
     }
@@ -479,7 +537,7 @@ Link {
         height: 50%;
     }
     .pyth {
-        background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3kvml7R52jzWLn_bnq01NUTCxdJarIYTVdA&usqp=CAU.jpg");
+        background-image: url("../images/qizbg.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         height: 100vh;
@@ -517,6 +575,10 @@ Link {
         margin: 0 10px 20px 10px;
         font-size: 20px;
     }
+    .questions {
+        padding-left: 30%;
+        padding-right: 20%;
+    }
     .score {
         padding-left: 70%;
         font-size: 40px;
@@ -524,9 +586,19 @@ Link {
     .subjects {
         display: flex;
         flex-direction: 0 0 auto;
-        justify-content: space-around;
     }
     .subject {
         padding: 10px;
+    }
+    .cont {
+        margin-left: 20%;
+        align-items: center;
+        justify-content: center;
+        background-color: aqua;
+    }
+    .add {
+        padding-left: 32%;
+        padding-top: 5%;
+        padding-right: 30%;
     }
 }
